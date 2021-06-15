@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/regexp-color-hexadecimal",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Return a regular expression to match a hexadecimal color.",
   "license": "Apache-2.0",
   "author": {
