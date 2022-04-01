@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "@stdlib/assert-contains": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x"
   },
   "devDependencies": {
