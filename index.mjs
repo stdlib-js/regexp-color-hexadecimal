@@ -1,0 +1,4 @@
+// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import e from"https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-nonenumerable-read-only-property@esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-contains@esm/index.mjs";import s from"https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-fmtprodmsg@esm/index.mjs";var r=["full","shorthand","either"];function i(e){if(arguments.length>0&&!t(r,e))throw new Error(s('invalid argument. Mode must be one of the following: "%s". Value: `%s`.',r.join('", "'),e));return"shorthand"===e?/^[0-9A-F]{3}$/i:"either"===e?/^[0-9A-F]{3}$|^[0-9A-F]{6}$/i:/^[0-9A-F]{6}$/i}var n=/^[0-9A-F]{3}$|^[0-9A-F]{6}$/i,o=/^[0-9A-F]{3}$/i,d=/^[0-9A-F]{6}$/i;e(i,"REGEXP",d),e(i,"REGEXP_SHORTHAND",o),e(i,"REGEXP_EITHER",n);export{d as REGEXP,n as REGEXP_EITHER,o as REGEXP_SHORTHAND,i as default};
+//# sourceMappingURL=index.mjs.map
