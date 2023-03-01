@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/color-hexadecimal"
-click B href "https://github.com/stdlib-js/regexp-color-hexadecimal/tree/main"
-click C href "https://github.com/stdlib-js/regexp-color-hexadecimal/tree/production"
-click D href "https://github.com/stdlib-js/regexp-color-hexadecimal/tree/esm"
-click E href "https://github.com/stdlib-js/regexp-color-hexadecimal/tree/deno"
-click F href "https://github.com/stdlib-js/regexp-color-hexadecimal/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/color-hexadecimal"
+%% click B href "https://github.com/stdlib-js/regexp-color-hexadecimal/tree/main"
+%% click C href "https://github.com/stdlib-js/regexp-color-hexadecimal/tree/production"
+%% click D href "https://github.com/stdlib-js/regexp-color-hexadecimal/tree/esm"
+%% click E href "https://github.com/stdlib-js/regexp-color-hexadecimal/tree/deno"
+%% click F href "https://github.com/stdlib-js/regexp-color-hexadecimal/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/color-hexadecimal
