@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import reColorHexadecimal from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-color-hexadecimal@deno/mod.js';
+import reColorHexadecimal from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-color-hexadecimal@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { REGEXP, REGEXP_EITHER, REGEXP_SHORTHAND } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-color-hexadecimal@deno/mod.js';
+import { REGEXP, REGEXP_EITHER, REGEXP_SHORTHAND } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-color-hexadecimal@v0.1.0-deno/mod.js';
 ```
 
 #### reColorHexadecimal( \[mode] )
@@ -134,7 +134,7 @@ bool = reColorHexadecimal.REGEXP_EITHER.test( '000' );
 
 ```javascript
 var isString = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-string' ).isPrimitive;
-import reColorHexadecimal from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-color-hexadecimal@deno/mod.js';
+import reColorHexadecimal from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-color-hexadecimal@v0.1.0-deno/mod.js';
 
 function isHexColor( value, mode ) {
     if ( !isString( value ) ) {
