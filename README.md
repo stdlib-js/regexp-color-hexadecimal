@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import reColorHexadecimal from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-color-hexadecimal@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/regexp-color-hexadecimal/tags). For example,
+
+```javascript
 import reColorHexadecimal from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-color-hexadecimal@v0.2.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { REGEXP, REGEXP_EITHER, REGEXP_SHORTHAND } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-color-hexadecimal@v0.2.0-deno/mod.js';
+import { REGEXP, REGEXP_EITHER, REGEXP_SHORTHAND } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-color-hexadecimal@deno/mod.js';
 ```
 
 #### reColorHexadecimal( \[mode] )
@@ -134,7 +139,7 @@ bool = reColorHexadecimal.REGEXP_EITHER.test( '000' );
 
 ```javascript
 var isString = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-string' ).isPrimitive;
-import reColorHexadecimal from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-color-hexadecimal@v0.2.0-deno/mod.js';
+import reColorHexadecimal from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-color-hexadecimal@deno/mod.js';
 
 function isHexColor( value, mode ) {
     if ( !isString( value ) ) {
