@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import reColorHexadecimal from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-color-hexadecimal@esm/index.mjs';
+import reColorHexadecimal from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-color-hexadecimal@v0.2.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { REGEXP, REGEXP_EITHER, REGEXP_SHORTHAND } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-color-hexadecimal@esm/index.mjs';
+import { REGEXP, REGEXP_EITHER, REGEXP_SHORTHAND } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-color-hexadecimal@v0.2.1-esm/index.mjs';
 ```
 
 #### reColorHexadecimal( \[mode] )
@@ -139,7 +139,7 @@ bool = reColorHexadecimal.REGEXP_EITHER.test( '000' );
 <script type="module">
 
 var isString = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-string' ).isPrimitive;
-import reColorHexadecimal from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-color-hexadecimal@esm/index.mjs';
+import reColorHexadecimal from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-color-hexadecimal@v0.2.1-esm/index.mjs';
 
 function isHexColor( value, mode ) {
     if ( !isString( value ) ) {
