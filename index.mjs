@@ -1,0 +1,4 @@
+// Copyright (c) 2025 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import r from"https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-nonenumerable-read-only-property@v0.2.1-esm/index.mjs";import{factory as s}from"https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-contains@v0.2.2-esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-fmtprodmsg@v0.2.2-esm/index.mjs";var t=["full","shorthand","either"],i=s(t);function n(r){if(arguments.length>0&&!i(r))throw new Error(e("0s97q",t.join('", "'),r));return"shorthand"===r?/^[0-9A-F]{3}$/i:"either"===r?/^[0-9A-F]{3}$|^[0-9A-F]{6}$/i:/^[0-9A-F]{6}$/i}var o=/^[0-9A-F]{3}$|^[0-9A-F]{6}$/i,d=/^[0-9A-F]{3}$/i,E=/^[0-9A-F]{6}$/i;r(n,"REGEXP",E),r(n,"REGEXP_SHORTHAND",d),r(n,"REGEXP_EITHER",o);export{E as REGEXP,o as REGEXP_EITHER,d as REGEXP_SHORTHAND,n as default};
+//# sourceMappingURL=index.mjs.map
