@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-19)
+## Unreleased (2026-06-20)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`aa598c9`](https://github.com/stdlib-js/stdlib/commit/aa598c929946d8083d945a9cc47400b86aabd358) - **chore:** propagate fixes across `blas/ext/base` and `regexp` [(#12970)](https://github.com/stdlib-js/stdlib/pull/12970) _(by Philipp Burckhardt)_
 -   [`8cbca87`](https://github.com/stdlib-js/stdlib/commit/8cbca872cf40171f6c3ec4240524ea940dcd8236) - **bench:** refactor to use string interpolation in `regexp` [(#11593)](https://github.com/stdlib-js/stdlib/pull/11593) _(by Karan Anand, Athan Reines)_
 
 </details>
@@ -24,10 +25,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
